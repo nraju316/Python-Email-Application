@@ -10,9 +10,9 @@ def get_processes_by_names(process_names):
 
 def send_email_alert(process_name, process_pid):
     # Email configuration
-    sender_email = "nraaju316@gmail.com"
-    receiver_email = "nraju316@gmail.com"
-    password = "hjuv lrsi spla xvgg"
+    sender_email = ""
+    receiver_email = ""
+    password = ""
 
     # Email content
     subject = f"Process Alert: {process_name} with PID {process_pid} has stopped"
